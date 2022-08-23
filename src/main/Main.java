@@ -6,10 +6,9 @@ public class Main {
     public static void main(String[] args) {
         Person person = new Person("",25);
         person.setAge(-23);
-        person.setName("erer");
+        person.setName("Eren Eger");
         System.out.println(person.getName() + " " + person.getAge());
         System.out.println();
-
 
 
 //        Scanner scanner = new Scanner(System.in);

@@ -1,14 +1,12 @@
 package main;
 
+import examples.homeworks.MyMath;
 import examples.lessons.Person;
 
 public class Main {
     public static void main(String[] args) {
-        Person person = new Person("",25);
-        person.setAge(-23);
-        person.setName("Eren Eger");
-        System.out.println(person.getName() + " " + person.getAge());
-        System.out.println();
+
+        System.out.println(MyMath.sum(2,3,4,43,45,5,3423));
 
 
 //        Scanner scanner = new Scanner(System.in);

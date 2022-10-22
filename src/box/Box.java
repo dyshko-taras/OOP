@@ -5,6 +5,14 @@ public class Box {
     double width;
     double height;
 
+    public Box() {
+        this(10,10,10);
+    }
+
+    public Box(double size) {
+        this(size,size,size);
+    }
+
     public Box(double length,double width, double height) {
         this.length = length;
         this.width = width;

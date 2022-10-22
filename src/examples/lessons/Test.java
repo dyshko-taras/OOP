@@ -1,13 +1,13 @@
 package examples.lessons;
 
 public class Test {
-    static double var (int a, int b) {
-        return a * b;
+    public double square10() {
+        return 10 * 10;
     }
 
-
-
-
+    public double square(double a) {
+        return a * a;
+    }
 
 
 }

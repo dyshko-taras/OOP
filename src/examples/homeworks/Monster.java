@@ -5,42 +5,32 @@ public class Monster {
     private int hands;
     private int legs;
 
-    public Monster(int eyes, int hands, int lengs) {
+    public Monster(int eyes,int hands, int legs) {
         this.eyes = eyes;
         this.hands = hands;
-        this.legs = lengs;
+        this.legs = legs;
     }
 
-    public Monster(int parts) {
-        this(parts,parts,parts);
+    public Monster(int count) {
+        this(count,count,count);
     }
 
     public Monster() {
         this(2);
     }
 
-    public void showInfo() {
-        System.out.println("Eyes - " + eyes + "\n" +
-                "Hands - " + hands + "\n" +
-                "Legs - " + legs + "\n");
-    }
-
-    public void voice(int repeat, String sound) {
-        for (int i = 0; i < repeat; i++) {
-            System.out.println(sound);
+    public void voice(int count, String word) {
+        for (int i = 0; i < count; i++) {
+            System.out.println(word);
         }
     }
 
-
-    public void voice(int repeat) {
-        voice(repeat,"Rrrrrrrrrrr");
+    public void voice(int count) {
+        voice(count,"Rrrrrrr...");
     }
 
     public void voice() {
-        voice(2);
+        voice(1);
     }
-
-
-
 
 }

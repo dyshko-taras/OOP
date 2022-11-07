@@ -2,9 +2,18 @@ package inheritance;
 
 public class CatFamily {
 
-    protected int legs;
-    protected int eyes;
-    protected boolean canEatPerson;
+    private int legs;
+    private int eyes;
+    private boolean canEatPerson;
+    private String name;
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void printName() {
+        System.out.println(name);
+    }
 
     public CatFamily(int legs, int eyes, boolean canEatPerson) {
         this.legs = legs;

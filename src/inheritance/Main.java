@@ -1,13 +1,8 @@
-
-
-import inheritance.Cat;
-
-import java.util.ArrayList;
+package inheritance;
 
 public class Main {
     public static void main(String[] args) {
-        Cat cat =  new Cat();
+        Cat cat = new Cat();
         cat.printName();
-
     }
 }

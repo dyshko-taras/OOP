@@ -10,6 +10,6 @@ public class Triangle extends Shape{
 
     @Override
     public int perimeter() {
-        return getA() + getB() + c;
+        return super.getA() + getB() + c;
     }
 }
